@@ -6,6 +6,21 @@ Posts a short, categorized digest of merged PRs to Slack, either **weekly** or *
 - Composite action plus one stdlib Python script. No Docker, no `pip install`.
 - **Safe by default:** it posts only when you pass a Slack webhook. Otherwise it just prints the digest to the log and the job summary.
 
+## Why we built this
+
+Founder-led SaaS teams often still rewrite merged PRs into Slack by hand after a release (or every Monday). That glue work is easy to skip when you’re busy — which is when the team most needs the update.
+
+**Release & PR Digest → Slack** is a tiny GitHub Action for that handoff:
+
+- Turns merged PRs into a short **Features / Fixes / Maintenance** digest (weekly or per release)
+- Facts only from GitHub — titles, authors, labels, links. **No LLM** inventing impact
+- Composite action + stdlib Python — no Docker, no `pip install`
+- **Safe by default:** without a Slack webhook it prints to the job log / summary and posts nothing
+
+Try offline with the bundled fixture (`fixture: sample`), or wire a private-channel webhook when you’re ready.
+
+Free AI Ops Readiness Scorecard (same shop): https://saasops05.github.io/saasops-digest-demo/scorecard.html
+
 ## Quick start
 
 1. In Slack, create an [Incoming Webhook](https://api.slack.com/messaging/webhooks) for a private test channel.
