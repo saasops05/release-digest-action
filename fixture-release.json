@@ -1,0 +1,52 @@
+{
+  "title": "Release digest — Spring Reliability Release",
+  "repo": "example-org/example-app",
+  "period": "v2.4.0 (2026-09-26)",
+  "url": "https://github.com/example-org/example-app/releases/tag/v2.4.0",
+  "pull_requests": [
+    {
+      "number": 412,
+      "title": "Add cohort retention chart to dashboards",
+      "author": "maya-chen",
+      "labels": [
+        "feature",
+        "frontend"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/412",
+      "merged_at": "2026-09-25T14:12:00Z"
+    },
+    {
+      "number": 408,
+      "title": "Fix timezone drift in scheduled report exports",
+      "author": "jordan-lee",
+      "labels": [
+        "bug",
+        "backend"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/408",
+      "merged_at": "2026-09-24T21:05:00Z"
+    },
+    {
+      "number": 405,
+      "title": "Introduce workspace-level API rate limit headers",
+      "author": "samir-patel",
+      "labels": [
+        "feature",
+        "api"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/405",
+      "merged_at": "2026-09-24T16:40:00Z"
+    },
+    {
+      "number": 401,
+      "title": "Bump pytest and ruff; quiet CI flaky warnings",
+      "author": "devin-ross",
+      "labels": [
+        "chore",
+        "ci"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/401",
+      "merged_at": "2026-09-23T11:18:00Z"
+    }
+  ]
+}

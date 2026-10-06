@@ -1,0 +1,85 @@
+{
+  "title": "Weekly PR digest",
+  "repo": "example-org/example-app",
+  "period": "2026-09-21 → 2026-09-28 (7 days)",
+  "url": "https://github.com/example-org/example-app/pulls",
+  "pull_requests": [
+    {
+      "number": 412,
+      "title": "Add cohort retention chart to dashboards",
+      "author": "maya-chen",
+      "labels": [
+        "feature",
+        "frontend"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/412",
+      "merged_at": "2026-09-25T14:12:00Z"
+    },
+    {
+      "number": 408,
+      "title": "Fix timezone drift in scheduled report exports",
+      "author": "jordan-lee",
+      "labels": [
+        "bug",
+        "backend"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/408",
+      "merged_at": "2026-09-24T21:05:00Z"
+    },
+    {
+      "number": 405,
+      "title": "Introduce workspace-level API rate limit headers",
+      "author": "samir-patel",
+      "labels": [
+        "feature",
+        "api"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/405",
+      "merged_at": "2026-09-24T16:40:00Z"
+    },
+    {
+      "number": 401,
+      "title": "Bump pytest and ruff; quiet CI flaky warnings",
+      "author": "devin-ross",
+      "labels": [
+        "chore",
+        "ci"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/401",
+      "merged_at": "2026-09-23T11:18:00Z"
+    },
+    {
+      "number": 397,
+      "title": "Prevent duplicate webhook deliveries on retry",
+      "author": "jordan-lee",
+      "labels": [
+        "bug",
+        "reliability"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/397",
+      "merged_at": "2026-09-22T19:55:00Z"
+    },
+    {
+      "number": 393,
+      "title": "Document SSO mapping for Okta enterprise tenants",
+      "author": "aisha-nguyen",
+      "labels": [
+        "docs",
+        "chore"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/393",
+      "merged_at": "2026-09-22T09:30:00Z"
+    },
+    {
+      "number": 389,
+      "title": "Ship CSV export for custom metric boards",
+      "author": "maya-chen",
+      "labels": [
+        "feature",
+        "export"
+      ],
+      "url": "https://github.com/example-org/example-app/pull/389",
+      "merged_at": "2026-09-21T15:02:00Z"
+    }
+  ]
+}

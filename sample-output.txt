@@ -1,0 +1,21 @@
+:package: *Weekly PR digest*
+_Period:_ 2026-09-21 → 2026-09-28 (7 days)  |  _Repo:_ `example-org/example-app`
+<https://github.com/example-org/example-app/pulls|View on GitHub>
+:test_tube: _Sample data from a fixture file — not a real repo._
+
+:sparkles: *Features*
+• <https://github.com/example-org/example-app/pull/412|#412 Add cohort retention chart to dashboards> — `@maya-chen` · _feature, frontend_
+• <https://github.com/example-org/example-app/pull/405|#405 Introduce workspace-level API rate limit headers> — `@samir-patel` · _feature, api_
+• <https://github.com/example-org/example-app/pull/389|#389 Ship CSV export for custom metric boards> — `@maya-chen` · _feature, export_
+
+:bug: *Fixes*
+• <https://github.com/example-org/example-app/pull/408|#408 Fix timezone drift in scheduled report exports> — `@jordan-lee` · _bug, backend_
+• <https://github.com/example-org/example-app/pull/397|#397 Prevent duplicate webhook deliveries on retry> — `@jordan-lee` · _bug, reliability_
+
+:wrench: *Maintenance*
+• <https://github.com/example-org/example-app/pull/401|#401 Bump pytest and ruff; quiet CI flaky warnings> — `@devin-ross` · _chore, ci_
+• <https://github.com/example-org/example-app/pull/393|#393 Document SSO mapping for Okta enterprise tenants> — `@aisha-nguyen` · _docs, chore_
+
+_7 merged PR(s) · template-generated, no LLM._
+
+Built by SaaS Ops Tune-Up — want this wired to your stack? Free AI Ops Scorecard: <https://saasops05.github.io/saasops-digest-demo/scorecard.html|saasops05.github.io/saasops-digest-demo/scorecard.html>

@@ -1,0 +1,29 @@
+# Copy to .github/workflows/weekly-digest.yml in YOUR repo.
+name: Weekly PR digest
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # Mondays 13:00 UTC
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: "Print only, don't post"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: saasops05/release-digest-action@v1
+        with:
+          slack-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          mode: ${{ github.event_name == 'release' && 'release' || 'weekly' }}
+          days: "7"
+          dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry-run || false }}
